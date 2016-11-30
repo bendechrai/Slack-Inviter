@@ -86,7 +86,10 @@
             <div class="form-col">
                 <button type="submit" class="form-btn">Submit</button>
             </div>
-        </div>
+            <div class="form-col">
+                Already have an account? Click <a href="https://<?php echo $data['domain']; ?>.slack.com/">here</a> to login with your account.
+            </div>
+        </div>   
     </div>
 </form>
 

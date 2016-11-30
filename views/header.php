@@ -26,6 +26,14 @@
         line-height: 200px;
         text-indent: -200%;
     }
+    a {
+        color: #1e91cf;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #1e91cf;
+        text-decoration: underline;
+    }
     .codeofconduct,
     .joinus {
         background-color: rgba(255, 255, 255, .8);
