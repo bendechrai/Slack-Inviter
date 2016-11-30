@@ -11,8 +11,20 @@
     body {
         font-family: 'Oxygen', sans-serif;
         min-width: 410px;
-        padding-top: 70px;
         font-size: 14px;
+    }
+    .header {
+        width: 40%;
+        min-width: 410px;
+        margin: 0 auto;
+        padding: 20px 0;
+        margin-bottom: 1em;
+    }
+    .header h1 {
+        background: url('assets/logo.png') no-repeat 50% 0;
+        background-size: contain;
+        line-height: 200px;
+        text-indent: -200%;
     }
     .codeofconduct,
     .joinus {
@@ -23,7 +35,7 @@
         padding: 20px 0;
         border-radius: 7px;
         box-shadow: 0 0 7px rgba(0, 0, 0, .1);
-	margin-bottom: 1em;
+        margin-bottom: 1em;
     }
     .codeofconduct h1, .codeofconduct h2, .codeofconduct p,
     .joinus h1, .joinus h4 {
@@ -66,6 +78,17 @@
     </style>
     <link href="http://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css">
     <script src="//squawk.cc/squawk.js"></script>
+    <meta property="og:title" content="PHP Australia" />
+    <meta property="og:description" content="Representing the PHP community in Australia" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://slack.phpaustralia.org/" />
+    <meta property="og:image" content="https://slack.phpaustralia.org/assets/logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@phpaus" />
+    <meta name="twitter:creator" content="@phpaus" />
+    <meta name="twitter:title" content="PHP Australia" />
+    <meta name="twitter:description" content="The end of year party for the Melbourne meetup community!" />
+    <meta name="twitter:image" content="https://slack.phpaustralia.org/assets/logo.png" />
 </head>
 <body>
 
